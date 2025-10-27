@@ -12,3 +12,5 @@ what is a component?
 3. idea for clarity, modularity, and maintainability
 
 PascalCasing
+
+week 2 - class 1
