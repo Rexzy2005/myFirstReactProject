@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body{
+    @apply bg-slate-950;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+
+}
+
+@layer components {
+
+  .contact-button {
+    @apply bg-gradient-to-tr to-blue-600 from-sky-600 text-white font-semibold pl-5 pr-5 p-1 rounded-full cursor-pointer shadow-2xl;
+  }
+
+  .social-icons {
+    @apply size-10 rounded-full border text-slate-400 border-slate-400 flex justify-center items-center;
+  }
+
+  .animation {
+    @apply animate-pulse;
+  }
+
+  .about-card {
+    @apply text-[.9rem] text-sky-700 text-nowrap text-center ring-1 ring-slate-700/50 pr-4 pl-4 p-1 rounded-md;
+  }
+}
